@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#first-section{
+    background-image: url(images/pexels-photo-11243967.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 92vh;
+    
+}
+
+#first-section #div-1{
+    padding-top: 23rem;
+    padding-left: 4rem;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+#first-section h1{
+    color: white;
+    font-size: 3rem;
+}
+#first-section p{
+    color: white;
+    margin-bottom: 0;
+}
+#first-section a{
+    text-decoration: none;
+    border: 2rem;
+    color: black;
+}
+#first-section button{
+   background-color: transparent;
+   border: 2px solid black;
+   padding: 7px 25px;
+   transition: 1s;
+}
+#first-section button:hover{
+    background-color: dimgray;
+}
+
+#second-section{
+    background-image: url(images/pexels-photo-60126.jpeg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center center;
+    height: 100vh;
+}
+#second-section h1{
+    color: white;
+    font-size: 3rem;
+
+}
+#second-section p{
+    color: white;
+    margin-bottom: 0;
+}
+#second-section div{
+    padding-top: 32rem;
+    padding-left: 4rem;
+}
+#second-section a{
+    text-decoration: none;
+    color: white;
+}
+#second-section button{
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 9px 25px;
+    margin-top: 2rem;
+    transition-duration: 1s;
+}
+#second-section button:hover{
+    background-color: dimgrey;
+}
+#third-section{
+    background-image: url(images/last\ image.webp);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center center;
+    height: 100vh;
+}
+#third-section h1{
+    color: white;
+    font-size: 3rem;
+
+}
+#third-section p{
+    color: white;
+    margin-bottom: 0;
+}
+#third-section div{
+    padding-top: 32rem;
+    padding-left: 4rem;
+}
+#third-section a{
+    text-decoration: none;
+    color: black;
+}
+#third-section button{
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 9px 25px;
+    margin-top: 2rem;
+    transition: 1s;
+}
+#third-section button:hover{
+    background-color: black;
+}
+footer div{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    height: 15vh;
+}
+footer div h2{
+    font-size: 15px;
+    color: white;
+}
+
+
+        /* Landing Page Media Query */
+
+@media (max-width: 768px) {
+    #first-section{
+       width: auto;
+       height: 100vh;
+    }
+
+    #first-section #div-1{
+        padding-top:38rem;
+        padding-left: 15px;
+    }
+    #first-section h1{
+        font-size: 2rem;
+        color: black;
+        
+    }
+    #first-section p{
+        color: black;
+        font-size: 1rem;
+    }
+    #second-section{
+        width: auto;
+        height: 65vh;
+     }
+     #second-section div{
+        padding-top: 23rem;
+        padding-left: 15px;
+     }
+ 
+    
+     #second-section h1{
+         font-size: 1.5rem;
+         
+     }
+     #third-section{
+        width: auto;
+        height: 65vh;
+     }
+     #third-section div{
+        padding-top: 23rem;
+        padding-left: 15px;
+    }
+    #third-section h1{
+        font-size: 1.5rem;
+        color: black;
+        
+    }
+    #third-section p{
+        color: black;
+    }
+    footer{
+        position: absolute;
+        width: 46vh;
+    }
+    footer div h2{
+        font-size: 10px;
+    }
+    #learn-section div {
+        padding-top: 2rem;
+        padding-left: 1em;
+    }
+    #learn-section h1{
+        font-size: 1rem;
+        color: red;
+    }
+ 
+}
+
+
+        /* First Learn More Stars Here/. */
+
+
+    #learn-section{
+        background-image: url(images/pexels-photo.webp);
+        height: 92vh;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    #learn-section h1{
+        color: white;
+        font-size: 3rem;
+    }
+    #learn-section p{
+        color: white;
+        margin-bottom: 0;
+        font-size: 2rem;
+    }
+    #learn-section div{
+        padding-top: 26rem;
+        padding-left: 3rem;
+    }
+    #learn-more{
+        background-color: black;
+        margin-bottom: 0;
+    }
+    #learn-more p{
+        color: white;
+        word-wrap: break-word;
+        word-break: break-all;
+        text-align: left;
+        font-size: 1rem;
+        padding-left: 27rem;
+        padding-right: 27rem;
+        padding-top: 4rem;
+        padding-bottom: 0;
+    }
+    #table h1{
+        color: white;
+        padding-left: 5rem;
+    }
+    #table p{
+        color: white;
+        padding-left: 5rem;
+    }
+    table{
+        border-collapse: separate;
+        vertical-align: inherit;
+        border-color: inherit;
+        background-color: black;
+        width: 100%;
+    }
+    th{
+        padding: 2rem 1rem;
+        padding-left: 5rem;
+        font-weight: bolder;
+        font-size: 1.5rem;
+        color: white;
+    }
+    table td{
+       
+        font-weight: bolder;
+        font-size: 1rem;
+        border-bottom: 1pt solid grey;
+        width: 50%;
+        padding: 20px 20px;
+        padding-left: 5rem;
+        margin-left: 3rem;
+        color: white;
+        
+    }
+   
+    
